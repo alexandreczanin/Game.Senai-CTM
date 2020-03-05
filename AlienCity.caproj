@@ -1,16 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>AlienCity</name>
-    <description></description>
+    <description>Game AlienCity</description>
     <version>1.0.0.0</version>
     <author>Alexandre C. Zanin</author>
     <author-email>alexandreczanin@gmail.com</author-email>
-    <author-website></author-website>
+    <author-website>https://www.senaipr.org.br/</author-website>
     <app-id>com.senai.myapp</app-id>
     <unique-id>2ks1nss9q8l8o</unique-id>
     <saved-with-version>27700</saved-with-version>
-    <used-plugins />
-    <used-behaviors />
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
     <used-effects />
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -38,7 +45,79 @@
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
-    <object-folder />
+    <object-folder>
+        <object-type name="Base" sid="488039502880559">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="184815967651366">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="591184809800566" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Heroi" sid="244228845269577">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="395051396358126">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="575470163796251" speed="10">
+                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
+                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
+                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Animacao" sid="292021548912037">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="822698641718946">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283869363959400" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk11.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inimigo" sid="480890941504663">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="757889070566435" speed="5">
+                    <frame duration="1" hotspotX="0.550459" hotspotY="0.534091" />
+                    <frame duration="1" hotspotX="0.550459" hotspotY="0.534091" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Moeda" sid="551044593317345">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579226108771732" speed="5">
+                    <frame duration="1" hotspotX="0.53" hotspotY="0.59" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Placar" sid="710650036756631">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
     <families />
     <layout-folder>
         <layout>Layout 1.xml</layout>

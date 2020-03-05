@@ -2,5 +2,49 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Event sheet 1</name>
-    <events />
+    <events>
+        <variable constant="0" name="Pontos" sid="217252355203715" static="0" type="number">0</variable>
+        <event-block sid="401739581649189">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="586999610917049" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="981096308077926">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="163680998709508" type="Heroi">
+                    <param id="0" name="Object">Inimigo</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="589004091537794" type="Inimigo" />
+            </actions>
+        </event-block>
+        <event-block sid="751439217045536">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="871494316429206" type="Heroi">
+                    <param id="0" name="Object">Moeda</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="844304768649637" type="Moeda" />
+                <action id="-10" name="Add to" sid="991296985167913" type="System">
+                    <param id="0" name="Variable">Pontos</param>
+                    <param id="1" name="Value">10</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="845377480252148">
+            <conditions>
+                <condition id="-6" name="Every X seconds" sid="560864244483463" type="System">
+                    <param id="0" name="Interval (seconds)">1.0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="535614893684583" type="Placar">
+                    <param id="0" name="Text">&quot;Pontos: &quot;&amp;Pontos</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>
