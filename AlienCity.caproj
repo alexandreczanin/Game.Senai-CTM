@@ -109,7 +109,7 @@
         <object-type name="Moeda" sid="551044593317345">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579226108771732" speed="5">
+                <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="579226108771732" speed="10">
                     <frame duration="1" hotspotX="0.53" hotspotY="0.59" />
                 </animation>
             </animation-folder>
