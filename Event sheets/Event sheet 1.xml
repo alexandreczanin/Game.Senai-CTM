@@ -4,11 +4,20 @@
     <name>Event sheet 1</name>
     <events>
         <variable constant="0" name="Pontos" sid="217252355203715" static="0" type="number">0</variable>
-        <event-block sid="401739581649189">
+        <event-block sid="141080741847702">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="586999610917049" type="System" />
+                <condition id="-2" name="On start of layout" sid="328790307484727" type="System" />
             </conditions>
-            <actions />
+            <actions>
+                <action id="-4" name="Set position to another object" sid="429316448972165" type="Animacao">
+                    <param id="0" name="Object">Heroi</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action behavior="Pin" id="0" name="Pin to object" sid="128652018100223" type="Animacao">
+                    <param id="0" name="Pin to">Heroi</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="981096308077926">
             <conditions>
@@ -43,6 +52,50 @@
             <actions>
                 <action id="0" name="Set text" sid="535614893684583" type="Placar">
                     <param id="0" name="Text">&quot;Pontos: &quot;&amp;Pontos</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="312600320053516">
+            <conditions>
+                <condition behavior="Platform" id="0" name="Is moving" sid="604812450631256" type="Heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="367866961459276" type="Animacao">
+                    <param id="0" name="Animation">&quot;andando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="936972250312398">
+            <conditions>
+                <condition id="-22" name="Else" sid="302913429483238" type="System" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="750410695716265" type="Animacao">
+                    <param id="0" name="Animation">&quot;parado&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="565133961091579">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="105788634709481" type="Heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="184058887590099" type="Animacao">
+                    <param id="0" name="Animation">&quot;pulando&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="522071711162578">
+            <conditions>
+                <condition behavior="Platform" id="4" name="Is falling" sid="567110574492528" type="Heroi" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="537716973626645" type="Animacao">
+                    <param id="0" name="Animation">&quot;caindo&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>

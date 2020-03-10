@@ -60,7 +60,7 @@
                 </instance>
                 <instance type="Heroi" uid="0">
                     <properties>
-                        <initial-visibility>Visible</initial-visibility>
+                        <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
@@ -84,40 +84,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>54</x>
-                        <y>388</y>
+                        <x>233.108123779</x>
+                        <y>474.512969971</y>
                         <z>0</z>
-                        <width>89.463996887</width>
-                        <height>242.880004883</height>
-                        <depth>0</depth>
-                        <hotspotX>0.556603789</hotspotX>
-                        <hotspotY>0.236363634</hotspotY>
-                        <angle>0.002569569</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Animacao" uid="2">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>239</x>
-                        <y>473.999938965</y>
-                        <z>0</z>
-                        <width>143</width>
-                        <height>201</height>
+                        <width>120.875930786</width>
+                        <height>199.709197998</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50515461</hotspotY>
-                        <angle>0</angle>
+                        <hotspotY>0.5030303</hotspotY>
+                        <angle>0.002569569</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -189,6 +164,60 @@
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                         <angle>-0.003142647</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Animacao" uid="2">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>237.100219727</x>
+                        <y>471.817962646</y>
+                        <z>0</z>
+                        <width>140</width>
+                        <height>202</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.000285511</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite" uid="6">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1182</x>
+                        <y>497</y>
+                        <z>0</z>
+                        <width>148</width>
+                        <height>19</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

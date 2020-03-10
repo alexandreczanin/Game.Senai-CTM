@@ -67,33 +67,8 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="575470163796251" speed="10">
-                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
-                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
-                    <frame duration="1" hotspotX="0.556604" hotspotY="0.236364" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Animacao" sid="292021548912037">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Pin" sid="822698641718946">
-                    <behavior id="Pin" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="283869363959400" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk10.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk01.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk02.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk03.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk04.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk05.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk06.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk07.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk09.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk08.png" />
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.505155" original-source="C:\Users\Aluno15\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p1_walk\PNG\p1_walk11.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="0" repeatto="0" sid="575470163796251" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50303" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -116,6 +91,78 @@
         </object-type>
         <object-type name="Placar" sid="710650036756631">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Animacao" sid="763947457574961">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Pin" sid="477619981108491">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Parado" pingpong="0" repeatcount="0" repeatto="0" sid="684305514438643" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_stand.png">
+                        <collision-poly>
+                            <point x="0.151515" y="0.108696" />
+                            <point x="0.5" y="0" />
+                            <point x="0.848485" y="0.108696" />
+                            <point x="0.939394" y="0.5" />
+                            <point x="0.848485" y="0.891304" />
+                            <point x="0.5" y="0.902174" />
+                            <point x="0.212121" y="0.847826" />
+                            <point x="0.0454545" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="11" loop="1" name="Andando" pingpong="0" repeatcount="0" repeatto="0" sid="261604914850090" speed="15">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk01.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk02.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk03.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk04.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk05.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk06.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk07.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk08.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk09.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk10.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_walk\PNG\p2_walk11.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Pulando" pingpong="0" repeatcount="0" repeatto="0" sid="672941446019864" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_jump.png" />
+                </animation>
+                <animation framecount="1" loop="0" name="Caindo" pingpong="0" repeatcount="0" repeatto="0" sid="528177051439120" speed="0">
+                    <frame duration="1" hotspotX="0.507463" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Player\p2_hurt.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="137471522478202">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="634977923498048">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738584965846772" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="796327741103042">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460472011394825" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="518357856265463">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733939805595350" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
