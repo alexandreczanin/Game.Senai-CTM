@@ -10,6 +10,7 @@
     <unique-id>2ks1nss9q8l8o</unique-id>
     <saved-with-version>27700</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
     </used-plugins>
@@ -135,32 +136,45 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="137471522478202">
+        <object-type name="Vida" sid="145929895688636">
             <plugin id="Sprite" />
             <behaviors>
-                <behavior-type name="Solid" sid="634977923498048">
-                    <behavior id="solid" />
+                <behavior-type name="Pin" sid="678417841596340">
+                    <behavior id="Pin" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="738584965846772" speed="5">
+                <animation framecount="4" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="549577754629050" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="1.10909" hotspotY="0.510638" />
+                    <frame duration="1" hotspotX="0.648148" hotspotY="0.510638" />
+                    <frame duration="1" hotspotX="0.503106" hotspotY="0.510638" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite2" sid="796327741103042">
+        <object-type name="Sprite5" sid="692306151921601">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="460472011394825" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="730873634457022" speed="5">
+                    <frame duration="1" hotspotX="-1.10496" hotspotY="0.133803" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\grassMid.png">
+                        <collision-poly>
+                            <point x="0" y="0.00704225" />
+                            <point x="0" y="0.00704225" />
+                            <point x="0" y="0.253521" />
+                            <point x="0" y="0.253521" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="518357856265463">
+        <object-type name="Keyboard" sid="469032924913075">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Placa" sid="777633654529726">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="733939805595350" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="190529991483420" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\signRight.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -172,7 +186,9 @@
     <event-folder>
         <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Keyboard" uid="7" />
+    </global-instances>
     <sounds-folder />
     <music-folder />
     <files-folder>
