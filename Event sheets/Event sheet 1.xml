@@ -126,5 +126,29 @@
             </conditions>
             <actions />
         </event-block>
+        <event-block sid="637360605451173">
+            <conditions>
+                <condition id="2" name="Key is down" sid="201126090419637" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="374916322915046" type="Animacao">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="671178893807526">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="968680973604013" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="203346456090121" type="Animacao">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
