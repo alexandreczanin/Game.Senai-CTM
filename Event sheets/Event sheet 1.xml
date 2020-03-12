@@ -186,5 +186,39 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="465750105056931">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="809641357037805" type="Heroi">
+                    <param id="0" name="Object">VidaPontos</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Add to" sid="153596038865938" type="System">
+                    <param id="0" name="Variable">Vida</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="248044699738369" type="VidaPontos" />
+            </actions>
+        </event-block>
+        <event-block sid="861405032448851">
+            <conditions>
+                <condition id="7" name="Is mirrored" sid="664250193274057" type="Sprite9" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="122728653546017">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="647360934836485" type="Heroi">
+                    <param id="0" name="Object">Sprite9</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Subtract from" sid="582478869792415" type="System">
+                    <param id="0" name="Variable">Vida</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="661162862371310" type="Sprite9" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

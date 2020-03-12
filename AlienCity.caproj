@@ -12,7 +12,6 @@
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
-        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
     </used-plugins>
@@ -167,14 +166,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="464857630765777">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850226666467360" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\liquidWaterTop.png" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Sprite2" sid="496259320342766">
             <plugin id="Sprite" />
             <behaviors>
@@ -242,14 +233,15 @@
         </object-type>
         <object-type name="TiledBackground" sid="108407600338021">
             <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="837932120339755">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
             <texture original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\grassHalfLeft.png" />
         </object-type>
         <object-type name="TiledBackground2" sid="532692926752793">
             <plugin id="TiledBg" />
-            <texture />
-        </object-type>
-        <object-type name="SpriteFont" sid="372518661184868">
-            <plugin id="Spritefont2" />
             <texture />
         </object-type>
         <object-type name="Sprite3" sid="522639458409942">
@@ -279,6 +271,232 @@
                             <point x="0.971429" y="0.971429" />
                             <point x="0.5" y="1" />
                             <point x="0.0285714" y="0.971429" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground5" sid="660465515791471">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\grassCliffLeftAlt.png" />
+        </object-type>
+        <object-type name="Sprite5" sid="985113991550444">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="920047524629878">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="654419329966494">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="438658923274813" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\grassCliffLeftAlt.png">
+                        <collision-poly>
+                            <point x="0.0285714" y="0.0285714" />
+                            <point x="0.5" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.5" y="0.742857" />
+                            <point x="0.385714" y="0.614286" />
+                            <point x="0.271429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="258708254833013">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="338453134814269">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478089271038893" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="-0.333333" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\bridgeLogs.png">
+                        <collision-poly>
+                            <point x="0.694444" y="0.185185" />
+                            <point x="0.5" y="0.037037" />
+                            <point x="0.305556" y="0.185185" />
+                            <point x="0.944444" y="0.851852" />
+                            <point x="0.5" y="0.962963" />
+                            <point x="0.0555556" y="0.851852" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="903851410479544">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="376843687827498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground6" sid="334358588108299">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground7" sid="777041960982761">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\liquidWaterTop_mid.png" />
+        </object-type>
+        <object-type name="VidaPontos" sid="867836620692716">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643481051423269" speed="5">
+                    <frame duration="1" hotspotX="0.509434" hotspotY="0.511111" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\HUD\hud_heartFull.png">
+                        <collision-poly>
+                            <point x="0.0943396" y="0.111111" />
+                            <point x="0.490566" y="0.0666667" />
+                            <point x="0.90566" y="0.111111" />
+                            <point x="0.962264" y="0.488889" />
+                            <point x="0.773585" y="0.733333" />
+                            <point x="0.490566" y="1" />
+                            <point x="0.207547" y="0.755556" />
+                            <point x="0.0188679" y="0.488889" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite8" sid="177509587465919">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972351468469946" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="947783752501848">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="667494759761261">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="512797876433651">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Sine3" sid="441886587157370">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="526753118313948" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Enemies\flyFly1.png">
+                        <collision-poly>
+                            <point x="0.0675676" y="0.131579" />
+                            <point x="0.5" y="0.157895" />
+                            <point x="0.932432" y="0.131579" />
+                            <point x="0.837838" y="0.5" />
+                            <point x="0.77027" y="0.552632" />
+                            <point x="0.5" y="0.973684" />
+                            <point x="0.216216" y="0.578947" />
+                            <point x="0.148649" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="990179542990012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="711020228722301" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\door_openMid.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="909601135129742">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="393147200177405" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\door_openTop.png">
+                        <collision-poly>
+                            <point x="0.428571" y="0.428571" />
+                            <point x="0.571429" y="0.428571" />
+                            <point x="0.828571" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0.171429" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground8" sid="112588225754290">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="TiledBackground9" sid="624613539144105">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\liquidWater.png" />
+        </object-type>
+        <object-type name="Sprite11" sid="686229944237360">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="402511068198041" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="-0.285714" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Items\bush.png">
+                        <collision-poly>
+                            <point x="0.805556" y="0.5" />
+                            <point x="0.5" y="0.0357143" />
+                            <point x="0.25" y="0.357143" />
+                            <point x="0.986111" y="0.964286" />
+                            <point x="0.0138889" y="0.964286" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite12" sid="151521507139758">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="344550670071567" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="601746714540668">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="428614765166524" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground10" sid="552422980006096">
+            <plugin id="TiledBg" />
+            <behaviors>
+                <behavior-type name="Solid" sid="445718329671874">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Tiles\bridgeLogs.png" />
+        </object-type>
+        <object-type name="Sprite14" sid="670071013965831">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="708145828890658">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="355256299366184">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="175609270297502" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" original-source="C:\Users\Aluno01\Desktop\Sprite\kenney-platformer-art-base-pack\Enemies\blockerBody.png">
+                        <collision-poly>
+                            <point x="0.0392157" y="0.0392157" />
+                            <point x="0.490196" y="0" />
+                            <point x="0.941176" y="0.0588235" />
+                            <point x="1" y="0.490196" />
+                            <point x="0.941176" y="0.941176" />
+                            <point x="0.490196" y="1" />
+                            <point x="0.0588235" y="0.941176" />
+                            <point x="0" y="0.490196" />
                         </collision-poly>
                     </frame>
                 </animation>
